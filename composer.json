@@ -1,0 +1,20 @@
+{
+    "name": "thybag/php-simple-cache",
+    "description": "Quick, talkative file cache helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thybag",
+            "email": "thybag@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "thybag\\PhpSimpleCache\\": "src/"
+        }
+    }
+}
